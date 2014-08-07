@@ -118,6 +118,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +127,7 @@
   <ItemGroup>
     <None Include="angularJs\angular-animate.min.js.map" />
     <None Include="angularJs\angular.min.js.map" />
+    <None Include="angularJs\todo.json" />
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
