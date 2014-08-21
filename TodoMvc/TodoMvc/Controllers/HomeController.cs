@@ -13,7 +13,7 @@ namespace TodoMvc.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return View("Index2");
         }
 
         public JsonResult GetData()
@@ -25,5 +25,9 @@ namespace TodoMvc.Controllers
             return Json(new {}, JsonRequestBehavior.AllowGet);
         }
 
+        public ActionResult Index2()
+        {
+            return View();
+        }
     }
 }

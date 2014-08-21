@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>    
+<head>
+    <title>Index 2</title>
+    <script src="@Url.Content("~/angularJs/angular.min.js")" type="text/javascript"></script>
+
+
+</head>
+<body>
+    <h2>Index2</h2>
+
+    <div ng-controller="StoreController">
+        <span>inside div</span>
+    </div>
+
+    <script type="text/javascript">
+        function StoreController($scope) {
+                alert('Welcome!!!');
+                //console.log('Welcome!!!');
+            }
+    </script>
+</body>
+</html>
+
+
